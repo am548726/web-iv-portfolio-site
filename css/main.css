@@ -1,3 +1,78 @@
 @charset "UTF-8";
 /* CSS Document */
+.top-margin{
+	margin-top:10em;	
+}
+.small-margin{
+  margin-top:2em;
+}
+nav ul{
+	list-style-type:none;
+	margin-top:13em;	
+}
+nav ul li{
+	display:inline-block;
+}
 
+nav a {
+	padding-right:2em;	
+}
+
+.position{
+  position:absolute;
+  z-index:1;
+  top:-5em;
+}
+.container{
+  width:61.80em;
+  height:55em;
+  border:.8em solid #000;
+  position:relative;
+  margin-top:14em;
+}
+.container-2{
+  width:61.80em;
+  height:55em;
+  border:.8em solid #000;
+  position:relative;
+  margin-top:14em;
+}
+.line-width{
+  max-width:20em;
+}
+ul{
+  list-style-type:none;
+}
+.white-rect{
+  width:30.2em;
+  height:2em;
+  background-color:#fff;
+  margin-top:5em !important;
+}
+
+input[type="text"],input[type="email"]{
+  margin:0 0;
+  padding:0 0;
+  border:0px;
+  border-bottom:2.5px solid black;
+  box-shadow:none;
+  margin-bottom:2em;
+}
+
+textarea,input[type="submit"]{
+  box-shadow:none;
+  border:2.5px solid black;
+  color:none;
+  background-color:white;
+}
+textarea{
+  margin-top:3em;
+}
+footer{
+  width:100%;
+  height:auto;
+  background-color:lightgrey;
+}
+footer p{
+  margin-top:22.5px;
+}

@@ -20,20 +20,6 @@ nav a {
 	z-index: 1;
 	top: -5em;
 }
-.container {
-	width: 61.80em;
-	height: 55em;
-	border: .8em solid #000;
-	position: relative;
-	margin-top: 14em;
-}
-.container-2 {
-	width: 61.80em;
-	height: 55em;
-	border: .8em solid #000;
-	position: relative;
-	margin-top: 14em;
-}
 .line-width {
 	max-width: 20em;
 }
@@ -53,6 +39,7 @@ input[type="text"], input[type="email"] {
 	border-bottom: 2.5px solid black;
 	box-shadow: none;
 	margin-bottom: 2em;
+	width:100%;
 }
 textarea, input[type="submit"] {
 	box-shadow: none;
@@ -62,14 +49,12 @@ textarea, input[type="submit"] {
 }
 textarea {
 	margin-top: 3em;
+	width:100%;
 }
 footer {
 	width: 100%;
 	height: auto;
 	background-color: lightgrey;
-}
-footer p {
-	margin-top: 22.5px;
 }
 
 /* Small screens */
@@ -85,10 +70,13 @@ nav ul {
 	list-style-type: none;
 	margin-top: 1.4em;
 }
-nav ul li {
+nav ul li,.row li {
 	display: inline-block;
 }
 nav a {
 	padding: none;
+}
+footer {
+	height: 3em;
 }
 }

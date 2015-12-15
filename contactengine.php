@@ -2,10 +2,11 @@
 
 $EmailFrom = "contact@jandro.com";
 $EmailTo = "amartinez402@gmail.com";
-$Subject = "Trayos Contact Form";
-$Name = Trim(stripslashes($_POST['Name'])); 
-$Email = Trim(stripslashes($_POST['Email'])); 
-$Message = Trim(stripslashes($_POST['Message'])); 
+$Subject = "Portfolio Contact Form";
+$firstName = Trim(stripslashes($_POST['firstName'])); 
+$lastName = Trim(stripslashes($_POST['lastName'])); 
+$email = Trim(stripslashes($_POST['email'])); 
+$comment = Trim(stripslashes($_POST['comment'])); 
 
 // validation
 $validationOK=true;
@@ -22,11 +23,11 @@ $Body .= "\n";
 $Body .= "lastName: ";
 $Body .= $lastName;
 $Body .= "\n";
-$Body .= "Email: ";
-$Body .= $Email;
+$Body .= "email: ";
+$Body .= $email;
 $Body .= "\n";
-$Body .= "Message: ";
-$Body .= $Message;
+$Body .= "comment: ";
+$Body .= $comment;
 $Body .= "\n";
 
 // send email 

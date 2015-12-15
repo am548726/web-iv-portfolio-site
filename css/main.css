@@ -1,199 +1,247 @@
-@charset "UTF-8";
+@charset  "UTF-8";
+
 /* CSS Document */
 body {
-	font-family: "sofia-pro", sans-serif;
+    font-family: "sofia-pro",sans-serif;
 }
+
 .top-margin {
-	margin-top: 10em;
+    margin-top: 10em;
 }
+
 .small-margin {
-	margin-top: 2em;
+    margin-top: 2em;
 }
+
 nav ul {
-	list-style-type: none;
+    list-style-type: none;
 }
+
 nav ul li {
-	display: inline-block;
+    display: inline-block;
 }
+
 nav a {
-	padding-right: 2em;
+    padding-right: 2em;
 }
+
 .position {
-	position: absolute;
-	z-index: 1;
-	top: -5em;
+    position: absolute;
+    z-index: 1;
+    top: -5em;
 }
+
 .line-width {
-	max-width: 20em;
+    max-width: 20em;
 }
+
 ul {
-	list-style-type: none;
+    list-style-type: none;
 }
+
 .white-rect {
-	width: 30.2em;
-	height: 2em;
-	background-color: #fff;
-	margin-top: 5em !important;
+    width: 30.2em;
+    height: 2em;
+    background-color: #fff;
+    margin-top: 5em !important;
 }
-input[type="text"], input[type="email"] {
-	margin: 0 0;
-	padding: 0 0;
-	border: 0px;
-	border-bottom: 2.5px solid black;
-	box-shadow: none;
-	margin-bottom: 2em;
-	width: 100%;
+
+input[type="text"],input[type="email"] {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-bottom: 2.5px solid #000;
+    box-shadow: none;
+    margin-bottom: 2em;
+    width: 100%;
 }
-textarea, input[type="submit"] {
-	box-shadow: none;
-	border: 2.5px solid black;
-	color: none;
-	background-color: white;
+
+textarea,input[type="submit"] {
+    box-shadow: none;
+    border: 2.5px solid #000;
+    color: none;
+    background-color: #fff;
 }
+
 textarea {
-	margin-top: 3em;
-	width: 100%;
+    margin-top: 3em;
+    width: 100%;
 }
+
 footer {
-	width: 100%;
-	height: auto;
-	background-color: lightgrey;
+    width: 100%;
+    height: auto;
+    background-color: #d3d3d3;
 }
-h2, h3, h4 {
-	font-family: "museo", serif;
+
+h2,h3,h4 {
+    font-family: "museo",serif;
 }
 
 /* Small screens */
 /* Define mobile styles */
 @media only screen and (max-width: 40.06em) {
-.logo {
-	width: 300px;
-}
-.top-margin {
-	margin-top: 3em;
-}
-.small-margin {
-	margin-top: 2em;
-}
-nav ul {
-	list-style-type: none;
-	margin-top: 1.4em;
-}
-nav ul li, .row li {
-	display: inline-block;
-}
-nav a {
-	padding: none;
-}
-h2 {
-	font-size: 40px;
-	font-weight:700;
-}
-h3 {
-	font-size: 30px;
-}
-h4 {
-	font-size: 1em;
-	font-weight: 600;
-}
-footer {
-	height: 3em;
-}
-a {
-	color: #000;
-}
-a:hover {
-	color: #000;
-}
+    .logo {
+        width: 300px;
+    }
+
+    .top-margin {
+        margin-top: 3em;
+    }
+
+    .small-margin {
+        margin-top: 2em;
+    }
+
+    nav ul {
+        list-style-type: none;
+        margin-top: 1.4em;
+    }
+
+    nav ul li,.row li {
+        display: inline-block;
+    }
+
+    nav a {
+        padding: none;
+    }
+
+    h2 {
+        font-size: 40px;
+        font-weight: 700;
+    }
+
+    h3 {
+        font-size: 30px;
+    }
+
+    h4 {
+        font-size: 1em;
+        font-weight: 600;
+    }
+
+    footer {
+        height: 3em;
+    }
+
+    a {
+        color: #000;
+    }
+
+    a:hover {
+        color: #000;
+    }
 }
 
 /* Medium screens */
 @media only screen and (min-width: 40.063em) {
-.logo {
-	width: 200px;
-}	
-nav ul {
-	margin-top: 13.4375em;
-}
-h2 {
-	font-size: 45px;
-	font-weight: 700;
-}
-h3 {
-	font-size: 35px;
-	font-weight: 500;
-}
-h4 {
-	font-size: 1em;
-	font-weight: 600;
-}
-a {
-	color: #000;
-}
-a:hover {
-	color: #000;
-}
-.border-fade {
-	display: inline-block;
-	transition-duration: 0.3s;
-	transition-property: box-shadow;
-	-webkit-tap-highlight-color: transparent;
-	transform: translateZ(0);/* Hack to improve aliasing on mobile/tablet devices */
-}
-.border-fade:focus {
-	color: #000;
-	box-shadow: inset 0 0 0 4px #000, 0 0 2.5px transparent;/* Hack to improve aliasing on mobile/tablet devices */
-}
+    .logo {
+        width: 200px;
+    }
+
+    nav ul {
+        margin-top: 13.4375em;
+    }
+
+    h2 {
+        font-size: 45px;
+        font-weight: 700;
+    }
+
+    h3 {
+        font-size: 35px;
+        font-weight: 500;
+    }
+
+    h4 {
+        font-size: 1em;
+        font-weight: 600;
+    }
+
+    a {
+        color: #000;
+    }
+
+    a:hover {
+        color: #000;
+    }
+
+    .border-fade {
+        display: inline-block;
+        transition-duration: .3s;
+        transition-property: box-shadow;
+        -webkit-tap-highlight-color: transparent;
+        transform: translateZ(0);
+    /* Hack to improve aliasing on mobile/tablet devices */
+    }
+
+    .border-fade:focus {
+        color: #000;
+        box-shadow: inset 0 0 0 4px #000,0 0 2.5px transparent;
+    /* Hack to improve aliasing on mobile/tablet devices */
+    }
 }
 
 /* Large screens */
 /* min-width 1025px, large screens */
 @media only screen and (min-width: 64.063em) {
-.logo {
-	width: 232px;
-}
-nav ul {
-	margin-top: 205px;
-}
-nav ul li {
-	font-size: 20px;
-	font-weight: bold;
-}
-h2 {
-	font-size: 45px;
-	font-weight: 700;
-}
-h3 {
-	font-size: 35px;
-	font-weight: 500;
-}
-h4 {
-	font-size: 1em;
-	font-weight: 600;
-}
-.button {
-	padding: 1em;
-	cursor: pointer;
-	background-color: none;
-	color: #000;
-	text-decoration: none;
-	border-color: none;
-}
-.border-fade {
-	display: inline-block;
-	transition-duration: 0.3s;
-	transition-property: box-shadow;
-	-webkit-tap-highlight-color: transparent;
-	transform: translateZ(0);/* Hack to improve aliasing on mobile/tablet devices */
-}
-.border-fade:hover {
-	color: #000;
-	box-shadow: inset 0 0 0 4px #000, 0 0 2.5px transparent;/* Hack to improve aliasing on mobile/tablet devices */
-}
-a {
-	color: #000;
-}
-a:hover {
-	color: #000;
-}
+    .logo {
+        width: 232px;
+    }
+
+    nav ul {
+        margin-top: 205px;
+    }
+
+    nav ul li {
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    h2 {
+        font-size: 45px;
+        font-weight: 700;
+    }
+
+    h3 {
+        font-size: 35px;
+        font-weight: 500;
+    }
+
+    h4 {
+        font-size: 1em;
+        font-weight: 600;
+    }
+
+    .button {
+        padding: 1em;
+        cursor: pointer;
+        background-color: none;
+        color: #000;
+        text-decoration: none;
+        border-color: none;
+    }
+
+    .border-fade {
+        display: inline-block;
+        transition-duration: .3s;
+        transition-property: box-shadow;
+        -webkit-tap-highlight-color: transparent;
+        transform: translateZ(0);
+    /* Hack to improve aliasing on mobile/tablet devices */
+    }
+
+    .border-fade:hover {
+        color: #000;
+        box-shadow: inset 0 0 0 4px #000,0 0 2.5px transparent;
+    /* Hack to improve aliasing on mobile/tablet devices */
+    }
+
+    a {
+        color: #000;
+    }
+
+    a:hover {
+        color: #000;
+    }
 }
